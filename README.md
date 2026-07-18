@@ -1,4 +1,4 @@
-<h1 align="center">DFIR-Agent</h1>
+<h1 align="center">DFIR-Agent🕵🏻</h1>
 
 ![Architecture](Architecture.png)
 
