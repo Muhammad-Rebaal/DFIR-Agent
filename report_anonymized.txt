@@ -1,0 +1,29 @@
+**Incident Response Report: Password Spray Attack and Data Exfiltration**
+
+**Executive Summary**
+
+On July 17, 2024, at 08:36, a password spray attack was detected from IP address 10.99.99.8. The attack resulted in the compromise of an account, which was later used from an anonymized IP in Amsterdam to exfiltrate sensitive data. This report outlines the investigation findings, including the compromised account, SID, and exfiltrated data.
+
+**Attack Timeline & Chain of Events**
+
+1. 08:36, July 17, 2024: A password spray attack was detected from IP address 10.99.99.8.
+2. The attack successfully compromised an account, which was later used from an anonymized IP in Amsterdam (10.99.99.11).
+3. The compromised account (anon_user_7) was used to exfiltrate sensitive data, including Phoenix_Project_Security_Review.docx, AWS_Root_Credentials.txt, VPN_Config_Internal.ovpn, Wire_Payment_Instructions.pdf, and Customer_PII_Export_Q2.csv.
+
+**Compromised Entities (Accounts, IPs, SIDs)**
+
+*   Compromised Account: anon_user_7
+*   Compromised IP Address: 10.99.99.8 (initial attack) and 10.99.99.11 (anonymized IP in Amsterdam)
+*   Compromised SID: anon_sid_1
+
+**Exfiltrated/Accessed Data**
+
+The following sensitive files were exfiltrated or accessed by the compromised account:
+
+*   Phoenix_Project_Security_Review.docx
+*   AWS_Root_Credentials.txt
+*   VPN_Config_Internal.ovpn
+*   Wire_Payment_Instructions.pdf
+*   Customer_PII_Export_Q2.csv
+
+These files appear to be sensitive and confidential, and their exfiltration could have serious consequences.
