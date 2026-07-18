@@ -1,4 +1,4 @@
-# DFIR-Agent
+<h1 align="center">DFIR-Agent</h1>
 
 ![Architecture](Architecture.png)
 
